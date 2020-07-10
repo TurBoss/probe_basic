@@ -25,13 +25,16 @@ setup(
         'gui_scripts': [
             'probe_basic=probe_basic:main',
             'probe_basic_lathe=probe_basic_lathe:main',
+            'probe_basic_latc=probe_basic_latc:main',
         ],
         'qtpyvcp.vcp': [
             'probe_basic=probe_basic',
             'probe_basic_lathe=probe_basic_lathe',
+            'probe_basic_latc=probe_basic_latc',
         ],
         'qtpyvcp.widgets': [
-            'Probe Basic Widgets=widgets'
+            'Probe Basic ATC Widgets=widgets.atc_plugins',
+            'Probe Basic Lathe Widgets=widgets.lathe_plugins'
         ]
     },
     install_requires=[
