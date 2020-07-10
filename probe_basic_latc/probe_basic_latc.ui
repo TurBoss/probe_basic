@@ -4801,8 +4801,8 @@ QPushButton:checked {
                           <rect>
                            <x>1080</x>
                            <y>0</y>
-                           <width>169</width>
-                           <height>274</height>
+                           <width>171</width>
+                           <height>281</height>
                           </rect>
                          </property>
                          <property name="sizePolicy">
@@ -4893,7 +4893,7 @@ QPushButton:checked {
                        <widget class="LinearATC" name="linearatc">
                         <property name="maximumSize">
                          <size>
-                          <width>1200</width>
+                          <width>1024</width>
                           <height>100</height>
                          </size>
                         </property>
@@ -34502,14 +34502,14 @@ font: 11pt bebas kai;
   </property>
  </designerdata>
  <buttongroups>
-  <buttongroup name="plotviewGroup"/>
-  <buttongroup name="probehelpGroup"/>
-  <buttongroup name="xycalbtnGroup"/>
-  <buttongroup name="plotorthoperspbtnGroup"/>
   <buttongroup name="proberoutinebtnGroup"/>
+  <buttongroup name="mainorthoperspbtnGroup"/>
+  <buttongroup name="plotviewGroup"/>
+  <buttongroup name="plotorthoperspbtnGroup"/>
+  <buttongroup name="xycalbtnGroup"/>
+  <buttongroup name="probemodeGroup"/>
+  <buttongroup name="probehelpGroup"/>
   <buttongroup name="probetabGroup"/>
   <buttongroup name="probepagewcsbtnGroup"/>
-  <buttongroup name="probemodeGroup"/>
-  <buttongroup name="mainorthoperspbtnGroup"/>
  </buttongroups>
 </ui>
