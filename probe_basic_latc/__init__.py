@@ -1,6 +1,3 @@
-import pydevd_pycharm
-pydevd_pycharm.settrace('localhost', port=1337, stdoutToServer=True, stderrToServer=True)
-
 from ._version import get_versions
 __version__ = get_versions()['version']
 del get_versions
