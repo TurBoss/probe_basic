@@ -8,6 +8,13 @@ Rectangle {
     height: 100
     color: "#939695"
 
+    Rectangle{
+        width: 1024
+        height: 40
+        color: "#c0c0c0"
+        y: 60
+    }
+
     Row{
         visible: true
         Repeater {
