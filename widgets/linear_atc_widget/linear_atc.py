@@ -80,7 +80,3 @@ class LinearATC(QQuickWidget):
         else:
             # print("Hide tool at pocket {}".format(pocket))
             self.hideToolSig.emit(pocket)
-
-    def atc_message(self, msg=""):
-        self.homeMsgSig.emit(msg)
-

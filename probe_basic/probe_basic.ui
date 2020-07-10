@@ -224,7 +224,7 @@ bottom-margin: 0px;
            <enum>QTabWidget::South</enum>
           </property>
           <property name="currentIndex">
-           <number>0</number>
+           <number>1</number>
           </property>
           <widget class="QWidget" name="main_tab">
            <attribute name="title">
@@ -2140,7 +2140,7 @@ QHeaderView {
 }</string>
                    </property>
                    <property name="currentIndex">
-                    <number>1</number>
+                    <number>0</number>
                    </property>
                    <widget class="QWidget" name="page_5">
                     <layout class="QVBoxLayout" name="verticalLayout_50">
@@ -29594,7 +29594,7 @@ LOAD</string>
             <string notr="true"/>
            </property>
            <property name="value" stdset="0">
-            <double>150.000000000000000</double>
+            <double>100.000000000000000</double>
            </property>
            <property name="maximum" stdset="0">
             <double>150.000000000000000</double>
@@ -31092,6 +31092,11 @@ font: 11pt bebas kai;
    <header>qtpyvcp.widgets.input_widgets.jog_increment</header>
   </customwidget>
   <customwidget>
+   <class>DynATC</class>
+   <extends>QQuickWidget</extends>
+   <header>widgets.atc_widget.atc</header>
+  </customwidget>
+  <customwidget>
    <class>FileSystemTable</class>
    <extends>QTableView</extends>
    <header>qtpyvcp.widgets.input_widgets.file_system</header>
@@ -31130,11 +31135,6 @@ font: 11pt bebas kai;
    <class>StatusLabel</class>
    <extends>QLabel</extends>
    <header>qtpyvcp.widgets.display_widgets.status_label</header>
-  </customwidget>
-  <customwidget>
-   <class>DynATC</class>
-   <extends>QQuickWidget</extends>
-   <header>qtpyvcp.widgets.display_widgets.atc_widget.atc</header>
   </customwidget>
   <customwidget>
    <class>VCPStackedWidget</class>
@@ -32670,16 +32670,16 @@ font: 11pt bebas kai;
   </property>
  </designerdata>
  <buttongroups>
-  <buttongroup name="probetabGroup"/>
-  <buttongroup name="plotorthoperspbtnGroup"/>
-  <buttongroup name="plotviewGroup"/>
-  <buttongroup name="mainorthoperspbtnGroup"/>
-  <buttongroup name="xycalbtnGroup"/>
-  <buttongroup name="probepagewcsbtnGroup"/>
   <buttongroup name="probemodeGroup"/>
   <buttongroup name="proberoutinebtnGroup"/>
   <buttongroup name="probehelpGroup"/>
   <buttongroup name="customwcsbtnGroup"/>
+  <buttongroup name="plotorthoperspbtnGroup"/>
+  <buttongroup name="xycalbtnGroup"/>
   <buttongroup name="fileviewerbtnGroup"/>
+  <buttongroup name="plotviewGroup"/>
+  <buttongroup name="probetabGroup"/>
+  <buttongroup name="mainorthoperspbtnGroup"/>
+  <buttongroup name="probepagewcsbtnGroup"/>
  </buttongroups>
 </ui>
