@@ -1,0 +1,15 @@
+
+def update_number(self, *args, **kwargs):
+    self.params[3050] = self.params["_hal[qtpyvcp.surface-scan.x-start-pos]"])
+    self.params[3051] = self.params["_hal[qtpyvcp.surface-scan.x-end-pos]"])
+    self.params[3052] = self.params["_hal[qtpyvcp.surface-scan.x-point-spacing]"])
+    self.params[3053] = self.params["_hal[qtpyvcp.surface-scan.y-start-pos]"])
+    self.params[3054] = self.params["_hal[qtpyvcp.surface-scan.y-end-pos]"])
+    self.params[3055] = self.params["_hal[qtpyvcp.surface-scan.y-point-spacing]"])
+    self.params[3057] = self.params["_hal[qtpyvcp.surface-scan.z-safety-pos]"])
+    self.params[3058] = self.params["_hal[qtpyvcp.surface-scan.z-probe-min-pos]"])
+    self.params[3059] = self.params["_hal[qtpyvcp.surface-scan.probe-z-fast-feedrate]"])
+    self.params[3060] = self.params["_hal[qtpyvcp.surface-scan.probe-z-slow-feedrate]"])
+    self.params[3061] = self.params["_hal[qtpyvcp.surface-scan.probe-xy-traverse-feedrate]"])
+    self.params[3062] = self.params["_hal[qtpyvcp.surface-scan.probe-z-retract-feedrate]"])
+    self.params[3064] = self.params["_hal[qtpyvcp.surface-scan.compensation-fade-height]"])

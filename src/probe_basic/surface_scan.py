@@ -68,7 +68,7 @@ class SurfaceScan:
         self.parent.surface_scan_y_start_pos_3053.textEdited.connect(self.update_extent_y_min)
         self.parent.surface_scan_y_end_pos_3054.textEdited.connect(self.update_extent_y_max)
         self.parent.surface_scan_y_point_spacing_3055.textEdited.connect(self.update_extent_y_spacing)
-        self.parent.surface_scan_end_pos_roundup_3056.clicked.connect(self.update_end_pos_roundup)
+        # self.parent.surface_scan_end_pos_roundup_3056.clicked.connect(self.update_end_pos_roundup)
         self.parent.surface_scan_z_safety_pos_3057.textEdited.connect(self.update_z_safety_pos)
         self.parent.surface_scan_z_probe_min_pos_3058.textEdited.connect(self.update_z_probe_min_pos)
         self.parent.surface_scan_probe_z_fast_feedrate_3059.textEdited.connect(self.update_probe_z_fast_feedrate)
@@ -192,7 +192,7 @@ class SurfaceScan:
         if self.ok_for_mdi():
             self.c.mode(linuxcnc.MODE_MDI)
             self.c.wait_complete() # wait until mode switch executed
-            self.c.mdi("o<surface_scan_param_update> call")
+            self.c.mdi("o<update_numbers> call")
         
         #somehow call o<surface_scan_param_update> sub here to update parameters in sim.var and we good
 
