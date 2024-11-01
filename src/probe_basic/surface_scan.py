@@ -192,9 +192,9 @@ class SurfaceScan:
         if self.ok_for_mdi():
             self.c.mode(linuxcnc.MODE_MDI)
             self.c.wait_complete() # wait until mode switch executed
-            self.c.mdi("o<update_numbers> call")
+            self.c.mdi("o<sync_params> call")
         
-        #somehow call o<surface_scan_param_update> sub here to update parameters in sim.var and we good
+        #somehow call o<sync_params> sub here to update parameters in sim.var and we good
 
     def update_probing_subroutine(self, index):
         """Method to handle combobox selection changes."""

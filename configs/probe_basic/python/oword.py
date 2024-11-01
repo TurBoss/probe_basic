@@ -1,5 +1,5 @@
 
-def update_number(self, *args, **kwargs):
+def sync_params(self, *args, **kwargs):
     self.params[3050] = self.params["_hal[qtpyvcp.surface-scan.x-start-pos]"])
     self.params[3051] = self.params["_hal[qtpyvcp.surface-scan.x-end-pos]"])
     self.params[3052] = self.params["_hal[qtpyvcp.surface-scan.x-point-spacing]"])
